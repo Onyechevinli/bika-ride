@@ -13,7 +13,7 @@ To actualize this task, we need to run it in 3 phases.
 
 To do the Version Control, we clone the starter project (or create a new one). Initialize a Git repository using Git Bash. Stage, commit, and push the code to a new GitHub repository.
 
-1. Sign in to GitHub or sign up, if you have not registered.
+1. Sign in to [GitHub](https://github.com/) or [sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you have not registered.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742302484926/dd469b06-50f8-4d46-affe-54d6dc4507fa.jpeg align="center")
@@ -42,77 +42,77 @@ To do the Version Control, we clone the starter project (or create a new one). I
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742315224405/77343f79-b8a8-4c84-96c3-2a58fbaf9344.jpeg align="center")
 
-6. Go to your file explorer and search for Git bash, to open the Git terminal.
+6. Go to your file explorer and search for **Git bash** to open the Git terminal.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742315346994/3bb8afcf-4618-4d9a-95f1-0745ebb446ec.jpeg align="center")
 
 7. Then type in the following command:
     
-    a. “**git config - -global user.name (name of the GitHub username)**“, then hit **Enter**.
+    a. ‘**git config --global user.name (name of the GitHub username)**’, then hit **Enter**.
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742327137485/758d1e52-e9a6-46c3-89cf-451fe495143d.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984516982/ccd3d675-54fb-45f6-878b-d0da12aef3b6.jpeg align="center")
 
-a. Type: “**git config - -global user.email (email of the GitHub account)**“, then press **Enter.**
+a. Type: ‘**git config --global user.email (email of the GitHub account)**’, then press **Enter.**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742327495230/9bd3a791-73f5-4e9d-9299-aba019afb8c3.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984548201/ea55d38d-8ff7-41ee-a093-4d4417dd4ba1.jpeg align="center")
 
-b. Create a directory/folder, by inputting this command; “**mkdir bika-ride**”, hit **Enter**.
+b. Create a directory/folder by inputting this command: ‘**mkdir bika-ride**’, and hit **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742327593951/57d9bb72-8551-4e1f-bb23-41e98fc4be82.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984630977/a09ac500-99de-4c49-b618-6e06e3bdd333.jpeg align="center")
 
-c. Run this command to enter into the Folder/directory; “**cd bika-ride**“, press **Enter**.
+c. Run this command to enter the folder/directory: **‘cd bika-ride**’ and press **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742359533563/0721c468-933a-4a25-907c-472e5addd652.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984742831/66b22864-a515-4d49-b410-d2fade325ff4.jpeg align="center")
 
-d. Then we initialized by typing the following command; “**git init**“, press Enter.
+d. Then we initialized by typing the following command: ‘**git init**’, and press **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742359946738/305f1272-f4ba-4f6f-89ac-c719859a63f5.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984806984/2fa1412e-4854-4f88-8731-8667454e48c1.jpeg align="center")
 
-e. Create the index.html file, by typing the following codes; “**touch index.html**“, and hit Enter.
+e. Create the index.html file by typing the following codes: ‘**touch index.html**’, and hit **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742360290710/dc9d18a9-54d2-4881-ae35-c59ba6fa96fa.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742984969950/f02a2a24-f6f5-419b-a741-f60c464d72da.jpeg align="center")
 
-f. Open the index.html file by tying these codes; “**cd index.html**“, and click Enter.
+f. Open the index.html file by typing these codes; ‘**vi index.html**’, and click **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742360428337/8a119ecd-68fc-4376-9bb1-9e1008a4ba84.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985120712/799cb417-6d5f-4f5f-a63d-3af1eb489a65.jpeg align="center")
 
 g. When you open the index.html file, it takes you to the file.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742360629848/575b4496-ac24-466e-a865-2426802f4d6f.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985193374/b818f9d2-b5c6-4281-8047-f11a031e4612.jpeg align="center")
 
 h. Then we input the codes for the app by pasting the code.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742362352601/1cdd1894-6027-4d9f-a23a-c6c6b0e4f6c9.jpeg align="center")
 
-i. Once the code is inputted, move out of the file by pressing the “**Esc**”, then press the colon“:“ and type “**wq**“ to exit the file.
+i. Once the code is inputted, move out of the file by pressing the **Esc key**, then press the colon key **‘:’** and type ‘**wq**’ to exit the file.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742364460626/364195ea-c9ba-45fb-b109-09b34ce41ef7.jpeg align="center")
 
-j. Input the following command, ‘**git remote add origin** (**git repository URL, you get it by clicking on code, in the drop-down, copy the URL and then paste it in the git terminal**)’, and hit Enter.
+j. Input the following command, ‘**git remote add origin** (**git repository URL, you get it by clicking on code, in the drop-down, copy the URL and then paste it in the git terminal**)’ and hit Enter.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742820838442/a464f19e-b6d4-428c-88a0-610ca30d8720.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742983777238/22e3ff2a-9359-4250-bab4-889382117b41.jpeg align="center")
 
 k. We add the code by typing ‘**git add index.html**’, and Enter.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742365089216/e4e355ab-147a-4235-a101-b903ac6882d1.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985386721/f1a0b39b-d90e-465e-af97-598099bff7ac.jpeg align="center")
 
-l. Type the command, ‘**git status**’, and Enter.
+l. Type the command: ‘**git status**’, and Enter.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742367683724/e5757b66-2d6f-4dfa-a7b8-51950841e220.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985509864/db77fd33-1e5f-4dde-9ab6-4f0466e9b4ab.jpeg align="center")
 
 m. Type the following command to commit, ‘**git commit -m “first commit“** ‘. press Enter.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742381150781/bbcd1dbc-cf2c-452d-a1f7-ef3d400806a3.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985613431/007b8e70-988a-4e4d-934f-e142355abc49.jpeg align="center")
 
-n. Type in ‘**git status**’, and hit Enter.
+n. Type in **‘git status’**, and hit **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742381353934/741bb6e4-e63e-46d7-ab5d-6fdbe2d61d3f.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742985752025/f6c60446-0ae3-4d44-a7df-76a0ad3953b7.jpeg align="center")
 
-o. We then push the origin to the master, ‘**git push origin master**’, and hit Enter.
+o. We then push the origin to the master, ‘**git push origin master**’, and hit **Enter**.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742381813093/bd4d7207-1e0e-4e1e-8292-b1b98d470ab2.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742986030912/af28e1fe-3f8c-4149-b207-12b43e544676.jpeg align="center")
 
 8. We then go to the GitHub site to check if it’s uploaded the file, then click on ‘**compare & pull request**‘.
     
