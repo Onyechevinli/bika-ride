@@ -18,7 +18,7 @@ So, let's dive in and explore the world of container images
 
 ### **What is a Container?**
 
-In Docker, a container is **<mark>a lightweight, standalone, and executable package of software that includes everything needed to run an application, like code, dependencies, and libraries, without relying on the host machine's environment</mark>**<mark>.</mark>
+In Docker, **<mark>a container is a lightweight, standalone, and executable package of software that includes everything needed to run an application, like code, dependencies, and libraries, without relying on the host machine's environment</mark>**<mark>.</mark>
 
 **Here's a more detailed explanation:**
 
