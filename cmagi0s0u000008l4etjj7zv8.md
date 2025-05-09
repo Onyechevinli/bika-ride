@@ -19,15 +19,15 @@ Terraform creates and manages resources on cloud platforms and other services th
 
 ![Terraform creates and manages cloud platforms and services through their APIs](https://developer.hashicorp.com/_next/image?url=https%3A%2F%2Fcontent.hashicorp.com%2Fapi%2Fassets%3Fproduct%3Dterraform%26version%3Drefs%252Fheads%252Fv1.11%26asset%3Dwebsite%252Fimg%252Fdocs%252Fintro-terraform-apis.png%26width%3D2048%26height%3D644&w=3840&q=75&dpl=dpl_3AdfpxykDHVJjsBC36WbyjcUC3Zh align="left")
 
-HashiCorp and the Terraform community have already written **thousands of providers** to manage many different types of resources and services. You can find all publicly available providers on the Terraform Registry, including Amazon Web Services (AWS), Azure, Google Cloud Platform ([GCP), K](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[ubern](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[etes, H](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)elm, GitHub[, Splunk, DataDog, an](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)d many m[ore.](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)
+HashiCorp and the Terraform community have already written **thousands of providers** to manage many different types of resources and services. You can find all publicly available providers on the Terraform Registry, including Amazon Web Services (AWS), Azure, Google Cloud Platform (GCP), Kubernetes, Helm, GitHub, Splunk, DataDog, and many more.
 
 [The co](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[re Ter](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[raform wo](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[rkflow](https://registry.terraform.io/) consists of three stages:
 
-* **Write:** You define resources, which may be across multiple cloud providers [and se](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[rvice](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[s. For](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) example[, you m](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[ight](https://developer.hashicorp.com/terraform/tutorials/azure-get-started) [create](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) [a conf](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)igura[tion to deploy an app](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)[lication on virtual](https://developer.hashicorp.com/terraform/tutorials/oci-get-started) [machin](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[es in a V](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)irtual Private Cloud (VPC) network with security groups and a load balancer.
+* **Write:** You define resources, which may be across multiple cloud providers and services. For example, you might create a configuration to deploy an application on virtual machines in a Virtual Private Cloud (VPC) network with security groups and a load balancer.
     
-* **Plan:** Terraform creates an execution plan describing the infrastructu[re it w](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[ill c](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[reate,](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) update, or [destroy based on the](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started) existing [infrastruct](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[ure an](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[d your co](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[nfiguration.](https://registry.terraform.io/)
+* **Plan:** Terraform creates an execution plan describing the infrastructure it will create, update, or destroy based on the existing infrastructure and your configuration.
     
-* **Apply:** On approval, Terraform performs the proposed operations in the correct order, respecting any resource dependencies. For example, if you update the properties of a VPC an[d change the numbe](https://registry.terraform.io/)r of vir[tual machines in t](https://registry.terraform.io/)hat VPC, Terraform will [recrea](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[te th](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[e VPC b](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)efore scali[ng the virtual machin](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)es.
+* **Apply:** On approval, Terraform performs the proposed operations in the correct order, respecting any resource dependencies. For example, if you update the properties of a VPC and change the number of virtual machines in that VPC, Terraform will recreate the VPC before scaling the virtual machines.
     
 
 ![The Terraform workflow has three steps: Write, Plan, and Apply](https://developer.hashicorp.com/_next/image?url=https%3A%2F%2Fcontent.hashicorp.com%2Fapi%2Fassets%3Fproduct%3Dterraform%26version%3Drefs%252Fheads%252Fv1.11%26asset%3Dwebsite%252Fimg%252Fdocs%252Fintro-terraform-workflow.png%26width%3D2038%26height%3D1773&w=3840&q=75&dpl=dpl_3AdfpxykDHVJjsBC36WbyjcUC3Zh align="left")
@@ -38,21 +38,21 @@ HashiCorp and the Terraform community have already written **thousands of provid
 
 ## [**Why T**](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[**erraf**](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[**orm?**](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
 
-[H](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)[a](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[shiCorp c](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)o[\-founder and CTO Armo](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)n Dadgar [explains ho](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[w Terr](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[aform sol](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)ves infrastructure challenges.
+HashiCorp co-founder and CTO Armon Dadgar explains how Terraform solves infrastructure challenges.
 
 #### **Prerequisites**
 
-Befo[re we begin, ensur](https://registry.terraform.io/)e you have the following prerequisites:
+Before we begin, ensure you have the following prerequisites:
 
 1. **Azure Subscription**: An active Azure subscription.
     
-2. **Terraform**: Ins[talled](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) [on yo](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)[ur loca](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)l machine. [You can download it f](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)rom Terr[aform's offi](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[cial s](https://developer.hashicorp.com/terraform/tutorials/docker-get-started)[ite.](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)
+2. **Terraform**: Installed on your local machine. You can download it from Terraform's official site.
     
-3. [**A**](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)**zure CLI**: Installed and configured on your local machine. Follow the installation [Azure's official documentation.](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?pivots=msi-powershell)
+3. **Azure CLI**: Installed and configured on your local machine. Follow the installation Azure's official documentation.
     
-4. [**Visual Stu**](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)[**dio Code**](https://registry.terraform.io/) [**(VSC)**: Inst](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)[alled](https://developer.hashicorp.com/terraform/tutorials/docker-get-started) [on your l](https://developer.hashicorp.com/terraform/tutorials/oci-get-started)ocal machine.
+4. [**Visual Stu**](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started)[**dio Code**](https://registry.terraform.io/) **(VSC)**: Installed on your local machine.
     
-5. [**GitHub Account**: A](https://registry.terraform.io/) GitHub account to store your Terraform configuration.
+5. [**GitHub Account**:](https://registry.terraform.io/) A GitHub account to store your Terraform configuration.
     
 
 ## **Follow the guide To Install Terraform**
