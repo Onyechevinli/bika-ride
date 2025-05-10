@@ -164,7 +164,7 @@ C. Type in `terraform --version` to check if Terraform is installed and the vers
 
 **Step 1a:** Give your repository a name. - Add a description for your repository. -Tick the "Public" option to make your repository publicly accessible.
 
-![]( align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746859240627/e00379f6-df1d-466f-b55d-b8b9cddf7c2e.png align="left")
 
 \- Tick the option to **"Add a README file."** - Click on the **"Create repository"** button to finalize and create your new repository.
 
@@ -184,9 +184,9 @@ C. Type in `terraform --version` to check if Terraform is installed and the vers
 
 **iii.** Select **GitHub** Account.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717711905363/d781bf52-0ce2-47e2-a716-a1d500c2a8e6.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746859507767/2b9c5e93-8b5c-496b-a57d-74b3fba584c7.png align="left")
 
-**iv.** Click on **"Authorize Visual-Studio-Code".**
+**iv.** Click on **Authorize Visual-Studio-Code.**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717712116529/e3a8a872-9d3a-4072-b77a-801ed63be46f.png?auto=compress,format&format=webp align="left")
 
@@ -256,11 +256,11 @@ C. Type in `terraform --version` to check if Terraform is installed and the vers
 
 **Step 8:** Open GitHub, navigate to the repository, and view the **main.tf** file and commit message.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717718422137/af3e92b5-ce93-40c1-9283-cec039c79fc9.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746858643174/8dd29950-01f8-4e2e-8450-8d457f23addd.png align="left")
 
 **i.** View the contents of **main.tf** file.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717718654519/6648973f-554c-41bb-9038-84abf6888417.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746859023371/3e92842b-de2e-44c2-8417-835ae3f90b51.png align="left")
 
 **Step 9: Log into Azure - Open Terminal in VSC and run the command** `az login or az login --tenant <tenant Id>` to log into Azure.
 
@@ -268,7 +268,7 @@ C. Type in `terraform --version` to check if Terraform is installed and the vers
 
 **i. Select Account.**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717719204631/cadc9707-c212-48cf-90ab-9911eb99d861.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746857807447/f6d6e49a-2174-414d-9c60-7802a8116034.jpeg align="left")
 
 **ii.** Successfully Logged into Azure.
 
@@ -298,7 +298,7 @@ Type `yes` when prompted to confirm the application.
 
 **Step 11: View Resources In Azure -** Navigate to **"Resource Groups"** and select **"nicelady-rg"** Once there, click on the "Overview" tab to view your virtual network.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717720445087/2cb93b8f-fa19-434b-8a45-569143a8348b.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746858878153/74bce62d-546f-4893-a3a1-af243561ad7f.png align="left")
 
 **Step 11a:** While staying within the overview tab of the virtual network, scroll down the left pane and choose "Settings." From there, select "Subnets" to access and view your subnet.
 
@@ -330,6 +330,4 @@ Type `yes` when prompted to confirm the application.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746775810765/d0a1c8d0-ade5-49a8-b939-e804cb5c4393.jpeg align="left")
 
-**Conclusion**
-
-Congratulations! You have successfully created, modified, and destroyed Azure resources using Terraform. By following this guide, you have also learned how to manage your Terraform configurations using GitHub. This foundational knowledge will help you as you continue to explore the power of Infrastructure as Code with Terraform on Azure.
+**We** have successfully created, modified, and destroyed Azure resources using Terraform. By following this guide, you have also learned how to manage your Terraform configurations using GitHub. This foundational knowledge will help you as you continue to explore the power of Infrastructure as Code with Terraform on Azure.
