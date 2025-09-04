@@ -9,7 +9,7 @@ tags: step-by-step-how-to-create-and-mount-aws-efs-file-system-to-ec2-instances,
 
 ---
 
-We are going to explain launch EC2 instances, create EFS, and mount EFS on 2 EC2 instances, and also share files between the 2 instances.
+I am going to explain how to launch EC2 instances, create EFS, and mount EFS on 2 EC2 instances, and also share files between the 2 instances.
 
 ## Creating of 2 EC2 instances:
 
