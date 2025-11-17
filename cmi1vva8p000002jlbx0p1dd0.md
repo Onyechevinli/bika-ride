@@ -3,6 +3,7 @@ title: "Deploying a webapp to Azure using the deploy.sh scripting to automate th
 datePublished: Sun Nov 16 2025 15:41:26 GMT+0000 (Coordinated Universal Time)
 cuid: cmi1vva8p000002jlbx0p1dd0
 slug: deploying-a-webapp-to-azure-using-the-deploysh-scripting-to-automate-the-terraform-github-action-and-other-designated-processes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763361875908/44df5bd6-557f-4aeb-9edf-9a87a6c4643f.png
 tags: docker, github, kubernetes, vscode, terraform, dockerfile, azure-devops, github-actions, bash-scripting, devops-journey, aksazure-kubernetes-services, acr
 
 ---
